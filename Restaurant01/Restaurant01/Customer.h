@@ -11,4 +11,5 @@
 @interface Customer : NSObject
 @property (strong, nonatomic) NSString *name;
 @property (strong, nonatomic) NSNumber *phone;
+@property (strong, nonatomic) NSString *mail;
 @end
