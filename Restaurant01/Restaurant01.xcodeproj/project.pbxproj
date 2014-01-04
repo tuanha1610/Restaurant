@@ -23,6 +23,8 @@
 		66B777DF18770A4100F748F7 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66B777C318770A4100F748F7 /* CoreData.framework */; };
 		66B777E718770A4200F748F7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 66B777E518770A4200F748F7 /* InfoPlist.strings */; };
 		66B777E918770A4200F748F7 /* Restaurant01Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 66B777E818770A4200F748F7 /* Restaurant01Tests.m */; };
+		66BFE5F11877CDDA00445DCA /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66BFE5EF1877CDDA00445DCA /* MainViewController.m */; };
+		66BFE5F21877CDDA00445DCA /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 66BFE5F01877CDDA00445DCA /* MainViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +58,9 @@
 		66B777E418770A4200F748F7 /* Restaurant01Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Restaurant01Tests-Info.plist"; sourceTree = "<group>"; };
 		66B777E618770A4200F748F7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		66B777E818770A4200F748F7 /* Restaurant01Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Restaurant01Tests.m; sourceTree = "<group>"; };
+		66BFE5EE1877CDDA00445DCA /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		66BFE5EF1877CDDA00445DCA /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		66BFE5F01877CDDA00445DCA /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,9 +132,12 @@
 		66B777C518770A4100F748F7 /* Restaurant01 */ = {
 			isa = PBXGroup;
 			children = (
-				66B777CE18770A4100F748F7 /* AppDelegate.h */,
 				662FCA3918771E9600842B3C /* model */,
+				66B777CE18770A4100F748F7 /* AppDelegate.h */,
 				66B777CF18770A4100F748F7 /* AppDelegate.m */,
+				66BFE5EE1877CDDA00445DCA /* MainViewController.h */,
+				66BFE5EF1877CDDA00445DCA /* MainViewController.m */,
+				66BFE5F01877CDDA00445DCA /* MainViewController.xib */,
 				66B777D418770A4100F748F7 /* Images.xcassets */,
 				66B777D118770A4100F748F7 /* Restaurant01.xcdatamodeld */,
 				66B777C618770A4100F748F7 /* Supporting Files */,
@@ -242,6 +250,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				66B777CA18770A4100F748F7 /* InfoPlist.strings in Resources */,
+				66BFE5F21877CDDA00445DCA /* MainViewController.xib in Resources */,
 				66B777D518770A4100F748F7 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -264,6 +273,7 @@
 				66B777D318770A4100F748F7 /* Restaurant01.xcdatamodeld in Sources */,
 				66B777D018770A4100F748F7 /* AppDelegate.m in Sources */,
 				66B777CC18770A4100F748F7 /* main.m in Sources */,
+				66BFE5F11877CDDA00445DCA /* MainViewController.m in Sources */,
 				662FCA3C18771EC100842B3C /* Customer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -9,5 +9,11 @@
 #import "Customer.h"
 
 @implementation Customer
-
+-(id)initWithId:(NSNumber *)idCustomer name:(NSString *)name mail:(NSString *)mail endPhone:(NSString *)phone{
+    self.idCustomer =idCustomer;
+    self.name= name;
+    self.mail = mail;
+    self.phone = phone;
+    return self;
+}
 @end
