@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import <Parse/Parse.h>
 @implementation AppDelegate
 
 @synthesize managedObjectContext = _managedObjectContext;
@@ -16,6 +16,8 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    [Parse setApplicationId:@"NGYzcjzxCqgEORULSFLAVmp8ur2p1nyrEeHDAJZi" clientKey:@"cF3JPGqgCjMtfmTKEF9Pm1iV2IovD3QQLDzO7Tvq"];
+    
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     self.mainViewController=[[MainViewController alloc]initWithNibName:@"MainViewController" bundle:nil];
     self.navigationController=[[UINavigationController alloc]initWithRootViewController:self.mainViewController];

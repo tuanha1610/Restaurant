@@ -27,6 +27,7 @@
 		66B777E918770A4200F748F7 /* Restaurant01Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 66B777E818770A4200F748F7 /* Restaurant01Tests.m */; };
 		66BDB70A18790C42005135DD /* CellDainty.m in Sources */ = {isa = PBXBuildFile; fileRef = 66BDB70918790C42005135DD /* CellDainty.m */; };
 		66BDB70C18790C81005135DD /* CellDainty.xib in Resources */ = {isa = PBXBuildFile; fileRef = 66BDB70B18790C81005135DD /* CellDainty.xib */; };
+		66BDB70E18791C2E005135DD /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66BDB70D18791C2E005135DD /* Security.framework */; };
 		66BFE5F11877CDDA00445DCA /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66BFE5EF1877CDDA00445DCA /* MainViewController.m */; };
 		66BFE5F21877CDDA00445DCA /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 66BFE5F01877CDDA00445DCA /* MainViewController.xib */; };
 		66BFE5F41877E17300445DCA /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66BFE5F31877E17300445DCA /* Parse.framework */; };
@@ -69,6 +70,7 @@
 		66BDB70818790C42005135DD /* CellDainty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellDainty.h; sourceTree = "<group>"; };
 		66BDB70918790C42005135DD /* CellDainty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellDainty.m; sourceTree = "<group>"; };
 		66BDB70B18790C81005135DD /* CellDainty.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CellDainty.xib; sourceTree = "<group>"; };
+		66BDB70D18791C2E005135DD /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		66BFE5EE1877CDDA00445DCA /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		66BFE5EF1877CDDA00445DCA /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		66BFE5F01877CDDA00445DCA /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
@@ -80,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66BDB70E18791C2E005135DD /* Security.framework in Frameworks */,
 				66B777C018770A4100F748F7 /* CoreGraphics.framework in Frameworks */,
 				66B777C418770A4100F748F7 /* CoreData.framework in Frameworks */,
 				66B777C218770A4100F748F7 /* UIKit.framework in Frameworks */,
@@ -133,6 +136,7 @@
 		66B777BC18770A4100F748F7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				66BDB70D18791C2E005135DD /* Security.framework */,
 				66BFE5F31877E17300445DCA /* Parse.framework */,
 				66B777BD18770A4100F748F7 /* Foundation.framework */,
 				66B777BF18770A4100F748F7 /* CoreGraphics.framework */,

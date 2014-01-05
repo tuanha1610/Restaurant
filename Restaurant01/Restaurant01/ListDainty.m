@@ -7,7 +7,7 @@
 //
 
 #import "ListDainty.h"
-#import "CellListDainty.h"
+#import "CellDainty.h"
 @interface ListDainty ()
 
 @end
@@ -41,6 +41,8 @@
     return 100;
 }
 -(UITableViewCell*)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
-    
+   static NSString *simpleTableIdentifier = @"CellDainty";
+    CellDainty *cell =(CellDainty*)[tableView dequeueReusableCellWithIdentifier:simpleTableIdentifier];
+    return cell;
 }
 @end
