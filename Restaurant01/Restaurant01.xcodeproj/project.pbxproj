@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		662FCA3C18771EC100842B3C /* Customer.m in Sources */ = {isa = PBXBuildFile; fileRef = 662FCA3B18771EC100842B3C /* Customer.m */; };
+		66B3AD4218782731008E2058 /* ListDainty.m in Sources */ = {isa = PBXBuildFile; fileRef = 66B3AD4018782731008E2058 /* ListDainty.m */; };
+		66B3AD4318782731008E2058 /* ListDainty.xib in Resources */ = {isa = PBXBuildFile; fileRef = 66B3AD4118782731008E2058 /* ListDainty.xib */; };
 		66B777BE18770A4100F748F7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66B777BD18770A4100F748F7 /* Foundation.framework */; };
 		66B777C018770A4100F748F7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66B777BF18770A4100F748F7 /* CoreGraphics.framework */; };
 		66B777C218770A4100F748F7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66B777C118770A4100F748F7 /* UIKit.framework */; };
@@ -23,6 +25,8 @@
 		66B777DF18770A4100F748F7 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66B777C318770A4100F748F7 /* CoreData.framework */; };
 		66B777E718770A4200F748F7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 66B777E518770A4200F748F7 /* InfoPlist.strings */; };
 		66B777E918770A4200F748F7 /* Restaurant01Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 66B777E818770A4200F748F7 /* Restaurant01Tests.m */; };
+		66BDB70A18790C42005135DD /* CellDainty.m in Sources */ = {isa = PBXBuildFile; fileRef = 66BDB70918790C42005135DD /* CellDainty.m */; };
+		66BDB70C18790C81005135DD /* CellDainty.xib in Resources */ = {isa = PBXBuildFile; fileRef = 66BDB70B18790C81005135DD /* CellDainty.xib */; };
 		66BFE5F11877CDDA00445DCA /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66BFE5EF1877CDDA00445DCA /* MainViewController.m */; };
 		66BFE5F21877CDDA00445DCA /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 66BFE5F01877CDDA00445DCA /* MainViewController.xib */; };
 		66BFE5F41877E17300445DCA /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66BFE5F31877E17300445DCA /* Parse.framework */; };
@@ -41,6 +45,9 @@
 /* Begin PBXFileReference section */
 		662FCA3A18771EC100842B3C /* Customer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Customer.h; sourceTree = "<group>"; };
 		662FCA3B18771EC100842B3C /* Customer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Customer.m; sourceTree = "<group>"; };
+		66B3AD3F18782731008E2058 /* ListDainty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListDainty.h; sourceTree = "<group>"; };
+		66B3AD4018782731008E2058 /* ListDainty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListDainty.m; sourceTree = "<group>"; };
+		66B3AD4118782731008E2058 /* ListDainty.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ListDainty.xib; sourceTree = "<group>"; };
 		66B777BA18770A4100F748F7 /* Restaurant01.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Restaurant01.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		66B777BD18770A4100F748F7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		66B777BF18770A4100F748F7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -59,6 +66,9 @@
 		66B777E418770A4200F748F7 /* Restaurant01Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Restaurant01Tests-Info.plist"; sourceTree = "<group>"; };
 		66B777E618770A4200F748F7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		66B777E818770A4200F748F7 /* Restaurant01Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Restaurant01Tests.m; sourceTree = "<group>"; };
+		66BDB70818790C42005135DD /* CellDainty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellDainty.h; sourceTree = "<group>"; };
+		66BDB70918790C42005135DD /* CellDainty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellDainty.m; sourceTree = "<group>"; };
+		66BDB70B18790C81005135DD /* CellDainty.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CellDainty.xib; sourceTree = "<group>"; };
 		66BFE5EE1877CDDA00445DCA /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		66BFE5EF1877CDDA00445DCA /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		66BFE5F01877CDDA00445DCA /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
@@ -142,6 +152,12 @@
 				66BFE5EE1877CDDA00445DCA /* MainViewController.h */,
 				66BFE5EF1877CDDA00445DCA /* MainViewController.m */,
 				66BFE5F01877CDDA00445DCA /* MainViewController.xib */,
+				66B3AD3F18782731008E2058 /* ListDainty.h */,
+				66B3AD4018782731008E2058 /* ListDainty.m */,
+				66B3AD4118782731008E2058 /* ListDainty.xib */,
+				66BDB70818790C42005135DD /* CellDainty.h */,
+				66BDB70918790C42005135DD /* CellDainty.m */,
+				66BDB70B18790C81005135DD /* CellDainty.xib */,
 				66B777D418770A4100F748F7 /* Images.xcassets */,
 				66B777D118770A4100F748F7 /* Restaurant01.xcdatamodeld */,
 				66B777C618770A4100F748F7 /* Supporting Files */,
@@ -253,9 +269,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66B3AD4318782731008E2058 /* ListDainty.xib in Resources */,
 				66B777CA18770A4100F748F7 /* InfoPlist.strings in Resources */,
 				66BFE5F21877CDDA00445DCA /* MainViewController.xib in Resources */,
 				66B777D518770A4100F748F7 /* Images.xcassets in Resources */,
+				66BDB70C18790C81005135DD /* CellDainty.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,9 +292,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66B3AD4218782731008E2058 /* ListDainty.m in Sources */,
 				66B777D318770A4100F748F7 /* Restaurant01.xcdatamodeld in Sources */,
 				66B777D018770A4100F748F7 /* AppDelegate.m in Sources */,
 				66B777CC18770A4100F748F7 /* main.m in Sources */,
+				66BDB70A18790C42005135DD /* CellDainty.m in Sources */,
 				66BFE5F11877CDDA00445DCA /* MainViewController.m in Sources */,
 				662FCA3C18771EC100842B3C /* Customer.m in Sources */,
 			);
