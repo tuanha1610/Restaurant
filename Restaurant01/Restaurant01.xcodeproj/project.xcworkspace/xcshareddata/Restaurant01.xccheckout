@@ -36,6 +36,14 @@
 			<key>IDESourceControlWCCName</key>
 			<string>Restaurant</string>
 		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>2FF82B1D-E2BE-40A2-B25C-78D8452C9A59</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Restaurant</string>
+		</dict>
 	</array>
 </dict>
 </plist>
