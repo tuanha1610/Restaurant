@@ -22,6 +22,7 @@
 		66B3DCBB187C6ACE00469A5E /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66B3DC9F187C6ACE00469A5E /* CoreData.framework */; };
 		66B3DCC3187C6ACE00469A5E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 66B3DCC1187C6ACE00469A5E /* InfoPlist.strings */; };
 		66B3DCC5187C6ACE00469A5E /* Restaurant02Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 66B3DCC4187C6ACE00469A5E /* Restaurant02Tests.m */; };
+		66B3DCCF187C6B1B00469A5E /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66B3DCCE187C6B1B00469A5E /* Parse.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		66B3DCC0187C6ACE00469A5E /* Restaurant02Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Restaurant02Tests-Info.plist"; sourceTree = "<group>"; };
 		66B3DCC2187C6ACE00469A5E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		66B3DCC4187C6ACE00469A5E /* Restaurant02Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Restaurant02Tests.m; sourceTree = "<group>"; };
+		66B3DCCE187C6B1B00469A5E /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 				66B3DCA0187C6ACE00469A5E /* CoreData.framework in Frameworks */,
 				66B3DC9E187C6ACE00469A5E /* UIKit.framework in Frameworks */,
 				66B3DC9A187C6ACE00469A5E /* Foundation.framework in Frameworks */,
+				66B3DCCF187C6B1B00469A5E /* Parse.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -103,6 +106,7 @@
 		66B3DC98187C6ACE00469A5E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				66B3DCCE187C6B1B00469A5E /* Parse.framework */,
 				66B3DC99187C6ACE00469A5E /* Foundation.framework */,
 				66B3DC9B187C6ACE00469A5E /* CoreGraphics.framework */,
 				66B3DC9D187C6ACE00469A5E /* UIKit.framework */,
@@ -369,6 +373,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/SCN/Documents/Restaurant/Restaurant02,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Restaurant02/Restaurant02-Prefix.pch";
 				INFOPLIST_FILE = "Restaurant02/Restaurant02-Info.plist";
@@ -382,6 +390,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/SCN/Documents/Restaurant/Restaurant02,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Restaurant02/Restaurant02-Prefix.pch";
 				INFOPLIST_FILE = "Restaurant02/Restaurant02-Info.plist";
