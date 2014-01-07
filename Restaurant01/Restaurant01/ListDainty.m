@@ -7,8 +7,8 @@
 //
 
 #import "ListDainty.h"
-#import "CellDainty.h"
-@interface ListDainty ()
+#import <Parse/Parse.h>
+@interface ListDainty () : PFQueryTableViewController
 
 @end
 
@@ -35,14 +35,9 @@
     // Dispose of any resources that can be recreated.
 }
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
-    return 1;
-}
--(CGFloat)tableView:(UITableView *)tableView estimatedHeightForRowAtIndexPath:(NSIndexPath *)indexPath{
-    return 100;
+    return 90;
 }
 -(UITableViewCell*)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
-   static NSString *simpleTableIdentifier = @"CellDainty";
-    CellDainty *cell =(CellDainty*)[tableView dequeueReusableCellWithIdentifier:simpleTableIdentifier];
-    return cell;
+    static NSString *simpleTableIdentifier = @"RecipeCell";
 }
 @end
