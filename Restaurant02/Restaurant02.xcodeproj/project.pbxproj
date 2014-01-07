@@ -24,6 +24,8 @@
 		66B3DCC5187C6ACE00469A5E /* Restaurant02Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 66B3DCC4187C6ACE00469A5E /* Restaurant02Tests.m */; };
 		66B3DCCF187C6B1B00469A5E /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66B3DCCE187C6B1B00469A5E /* Parse.framework */; };
 		66B3DCD3187C6D0B00469A5E /* Food.m in Sources */ = {isa = PBXBuildFile; fileRef = 66B3DCD2187C6D0B00469A5E /* Food.m */; };
+		66B3DCDC187C73AE00469A5E /* ListFoodViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66B3DCDA187C73AE00469A5E /* ListFoodViewController.m */; };
+		66B3DCDD187C73AE00469A5E /* ListFoodViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 66B3DCDB187C73AE00469A5E /* ListFoodViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +60,9 @@
 		66B3DCCE187C6B1B00469A5E /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
 		66B3DCD1187C6D0B00469A5E /* Food.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Food.h; sourceTree = "<group>"; };
 		66B3DCD2187C6D0B00469A5E /* Food.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Food.m; sourceTree = "<group>"; };
+		66B3DCD9187C73AE00469A5E /* ListFoodViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListFoodViewController.h; sourceTree = "<group>"; };
+		66B3DCDA187C73AE00469A5E /* ListFoodViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListFoodViewController.m; sourceTree = "<group>"; };
+		66B3DCDB187C73AE00469A5E /* ListFoodViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ListFoodViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +130,9 @@
 				66B3DCD0187C6CF600469A5E /* model */,
 				66B3DCAA187C6ACE00469A5E /* AppDelegate.h */,
 				66B3DCAB187C6ACE00469A5E /* AppDelegate.m */,
+				66B3DCD9187C73AE00469A5E /* ListFoodViewController.h */,
+				66B3DCDA187C73AE00469A5E /* ListFoodViewController.m */,
+				66B3DCDB187C73AE00469A5E /* ListFoodViewController.xib */,
 				66B3DCB0187C6ACE00469A5E /* Images.xcassets */,
 				66B3DCAD187C6ACE00469A5E /* Restaurant02.xcdatamodeld */,
 				66B3DCA2187C6ACE00469A5E /* Supporting Files */,
@@ -245,6 +253,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66B3DCDD187C73AE00469A5E /* ListFoodViewController.xib in Resources */,
 				66B3DCA6187C6ACE00469A5E /* InfoPlist.strings in Resources */,
 				66B3DCB1187C6ACE00469A5E /* Images.xcassets in Resources */,
 			);
@@ -265,6 +274,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66B3DCDC187C73AE00469A5E /* ListFoodViewController.m in Sources */,
 				66B3DCAC187C6ACE00469A5E /* AppDelegate.m in Sources */,
 				66B3DCD3187C6D0B00469A5E /* Food.m in Sources */,
 				66B3DCAF187C6ACE00469A5E /* Restaurant02.xcdatamodeld in Sources */,

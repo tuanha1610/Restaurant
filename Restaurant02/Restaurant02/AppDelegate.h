@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "ListFoodViewController.h"
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
@@ -19,4 +19,6 @@
 - (void)saveContext;
 - (NSURL *)applicationDocumentsDirectory;
 
+@property(strong, nonatomic) ListFoodViewController* listFoodViewController;
+@property(strong, nonatomic) UINavigationController* navigationController;
 @end
