@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface ListDainty : UIViewController<UITableViewDataSource, UITableViewDelegate>
+#import <Parse/Parse.h>
+@interface ListDainty : PFQueryTableViewController
 
 @end

@@ -16,6 +16,7 @@
 		66B659CC187C7299006BF193 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66B659CB187C7299006BF193 /* StoreKit.framework */; };
 		66B659CE187C72A8006BF193 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66B659CD187C72A8006BF193 /* SystemConfiguration.framework */; };
 		66B659D0187C72B4006BF193 /* libz.1.1.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 66B659CF187C72B4006BF193 /* libz.1.1.3.dylib */; };
+		66B659D3187C72B4006BF193 /* Dainty.m in Sources */ = {isa = PBXBuildFile; fileRef = 66B659D2187C72B4006BF193 /* Dainty.m */; };
 		66B777BE18770A4100F748F7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66B777BD18770A4100F748F7 /* Foundation.framework */; };
 		66B777C018770A4100F748F7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66B777BF18770A4100F748F7 /* CoreGraphics.framework */; };
 		66B777C218770A4100F748F7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66B777C118770A4100F748F7 /* UIKit.framework */; };
@@ -59,6 +60,8 @@
 		66B659CB187C7299006BF193 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		66B659CD187C72A8006BF193 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		66B659CF187C72B4006BF193 /* libz.1.1.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.1.3.dylib; path = usr/lib/libz.1.1.3.dylib; sourceTree = SDKROOT; };
+		66B659D1187C72B4006BF193 /* Dainty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dainty.h; sourceTree = "<group>"; };
+		66B659D2187C72B4006BF193 /* Dainty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dainty.m; sourceTree = "<group>"; };
 		66B777BA18770A4100F748F7 /* Restaurant01.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Restaurant01.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		66B777BD18770A4100F748F7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		66B777BF18770A4100F748F7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -123,6 +126,8 @@
 			children = (
 				662FCA3A18771EC100842B3C /* Customer.h */,
 				662FCA3B18771EC100842B3C /* Customer.m */,
+				66B659D1187C72B4006BF193 /* Dainty.h */,
+				66B659D2187C72B4006BF193 /* Dainty.m */,
 			);
 			name = model;
 			sourceTree = "<group>";
@@ -313,6 +318,7 @@
 			files = (
 				66B3AD4218782731008E2058 /* ListDainty.m in Sources */,
 				66B777D318770A4100F748F7 /* Restaurant01.xcdatamodeld in Sources */,
+				66B659D3187C72B4006BF193 /* Dainty.m in Sources */,
 				66B777D018770A4100F748F7 /* AppDelegate.m in Sources */,
 				66B777CC18770A4100F748F7 /* main.m in Sources */,
 				66BFE5F11877CDDA00445DCA /* MainViewController.m in Sources */,
