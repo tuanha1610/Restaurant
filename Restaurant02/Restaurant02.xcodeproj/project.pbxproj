@@ -23,6 +23,7 @@
 		66B3DCC3187C6ACE00469A5E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 66B3DCC1187C6ACE00469A5E /* InfoPlist.strings */; };
 		66B3DCC5187C6ACE00469A5E /* Restaurant02Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 66B3DCC4187C6ACE00469A5E /* Restaurant02Tests.m */; };
 		66B3DCCF187C6B1B00469A5E /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66B3DCCE187C6B1B00469A5E /* Parse.framework */; };
+		66B3DCD3187C6D0B00469A5E /* Food.m in Sources */ = {isa = PBXBuildFile; fileRef = 66B3DCD2187C6D0B00469A5E /* Food.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,8 @@
 		66B3DCC2187C6ACE00469A5E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		66B3DCC4187C6ACE00469A5E /* Restaurant02Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Restaurant02Tests.m; sourceTree = "<group>"; };
 		66B3DCCE187C6B1B00469A5E /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		66B3DCD1187C6D0B00469A5E /* Food.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Food.h; sourceTree = "<group>"; };
+		66B3DCD2187C6D0B00469A5E /* Food.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Food.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +122,7 @@
 		66B3DCA1187C6ACE00469A5E /* Restaurant02 */ = {
 			isa = PBXGroup;
 			children = (
+				66B3DCD0187C6CF600469A5E /* model */,
 				66B3DCAA187C6ACE00469A5E /* AppDelegate.h */,
 				66B3DCAB187C6ACE00469A5E /* AppDelegate.m */,
 				66B3DCB0187C6ACE00469A5E /* Images.xcassets */,
@@ -155,6 +159,15 @@
 				66B3DCC1187C6ACE00469A5E /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		66B3DCD0187C6CF600469A5E /* model */ = {
+			isa = PBXGroup;
+			children = (
+				66B3DCD1187C6D0B00469A5E /* Food.h */,
+				66B3DCD2187C6D0B00469A5E /* Food.m */,
+			);
+			name = model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -253,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				66B3DCAC187C6ACE00469A5E /* AppDelegate.m in Sources */,
+				66B3DCD3187C6D0B00469A5E /* Food.m in Sources */,
 				66B3DCAF187C6ACE00469A5E /* Restaurant02.xcdatamodeld in Sources */,
 				66B3DCA8187C6ACE00469A5E /* main.m in Sources */,
 			);
